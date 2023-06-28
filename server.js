@@ -1,15 +1,15 @@
-'use strict';
+"use strict";
 
-const express = require('express');
+const express = require("express");
 
 // Constants
 const PORT = 8080;
-const HOST = 'localhost';
+const HOST = "localhost";
 
 // App
 const app = express();
-app.get('/', (req, res) => {
-  res.send('Hello World');
+app.get("/", (req, res) => {
+  res.send("Hello World");
 });
 
 app.listen(PORT, HOST, () => {
